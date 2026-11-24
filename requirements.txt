@@ -1,0 +1,3 @@
+# Offline patch generation, UPD building, and verification require ONLY Python 3.10+ stdlib.
+# Optional: PyUSB is only needed for live volatile-RAM testing via USB Service Mode (04da:2370).
+pyusb>=1.2.1

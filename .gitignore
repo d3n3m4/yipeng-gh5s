@@ -1,0 +1,20 @@
+# Strictly exclude Panasonic firmware binaries, decrypted partitions, keys, and compiled blobs
+*.bin
+*.so
+*.dylib
+*.dll
+*.key
+*.elf
+*.dump
+*.log
+*.bak
+*.vlt
+*.MOV
+*.mov
+*.mdt
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+builds/
+firmware/
